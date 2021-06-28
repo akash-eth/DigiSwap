@@ -1,0 +1,22 @@
+{
+  "name": "digiswap",
+  "version": "1.0.0",
+  "description": "An modified Uniswap fork using Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashbhardwaj04/DigiSwap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akashbhardwaj04/DigiSwap/issues"
+  },
+  "homepage": "https://github.com/akashbhardwaj04/DigiSwap#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0"
+  }
+}

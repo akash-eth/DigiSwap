@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >= 0.5.16;
 
-import '@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol';
 import '@openzeppelin/contracts/token/ERC20/ERC20.sol';
 
-contract Token1 is ERC20Detailed, ERC20 {
-    constructor() ERC20Detailed('Token 1', 'TK1', 18) public {}
+contract Token1 is ERC20 {
+    constructor() ERC20('Token 1', 'TK1') {
+        _mint(msg.sender, 100 * 7 ** 18);
+    }
 }
