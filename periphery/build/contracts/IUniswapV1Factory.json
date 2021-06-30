@@ -21,26 +21,26 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"getExchange\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Lenovo/Desktop/UniswapFork/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol\":\"IUniswapV1Factory\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Lenovo/Desktop/UniswapFork/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol\":{\"keccak256\":\"0xd080dfffb732df63f67e27c61766ca0c721df16ab5536bc69aa23d10e48c7770\",\"urls\":[\"bzz-raw://fb8114210bdd417e5cc82269377fe3cf41bc55ca3fe86f309fb6f0aef49f6750\",\"dweb:/ipfs/QmZjH7kS4YMiogfbzW9MqdQrcdiZCFUQWRuJ8CJK9NTSJ5\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"getExchange\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Lenovo/Desktop/My Repos/DigiSwap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol\":\"IUniswapV1Factory\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Lenovo/Desktop/My Repos/DigiSwap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol\":{\"keccak256\":\"0xd080dfffb732df63f67e27c61766ca0c721df16ab5536bc69aa23d10e48c7770\",\"urls\":[\"bzz-raw://fb8114210bdd417e5cc82269377fe3cf41bc55ca3fe86f309fb6f0aef49f6750\",\"dweb:/ipfs/QmZjH7kS4YMiogfbzW9MqdQrcdiZCFUQWRuJ8CJK9NTSJ5\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity >=0.5.0;\r\n\r\ninterface IUniswapV1Factory {\r\n    function getExchange(address) external view returns (address);\r\n}\r\n",
-  "sourcePath": "C:\\Users\\Lenovo\\Desktop\\UniswapFork\\periphery\\contracts\\interfaces\\V1\\IUniswapV1Factory.sol",
+  "sourcePath": "C:/Users/Lenovo/Desktop/My Repos/DigiSwap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
   "ast": {
-    "absolutePath": "/C/Users/Lenovo/Desktop/UniswapFork/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
+    "absolutePath": "/C/Users/Lenovo/Desktop/My Repos/DigiSwap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
     "exportedSymbols": {
       "IUniswapV1Factory": [
-        5281
+        2146
       ]
     },
-    "id": 5282,
+    "id": 2147,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 5273,
+        "id": 2138,
         "literals": [
           "solidity",
           ">=",
@@ -48,7 +48,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:15"
+        "src": "0:24:7"
       },
       {
         "abstract": false,
@@ -57,9 +57,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 5281,
+        "id": 2146,
         "linearizedBaseContracts": [
-          5281
+          2146
         ],
         "name": "IUniswapV1Factory",
         "nodeType": "ContractDefinition",
@@ -68,7 +68,7 @@
             "body": null,
             "documentation": null,
             "functionSelector": "06f2bf62",
-            "id": 5280,
+            "id": 2145,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -76,18 +76,18 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 5276,
+              "id": 2141,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5275,
+                  "id": 2140,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5280,
-                  "src": "84:7:15",
+                  "scope": 2145,
+                  "src": "84:7:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -95,10 +95,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5274,
+                    "id": 2139,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "84:7:15",
+                    "src": "84:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -109,21 +109,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "83:9:15"
+              "src": "83:9:7"
             },
             "returnParameters": {
-              "id": 5279,
+              "id": 2144,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5278,
+                  "id": 2143,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5280,
-                  "src": "116:7:15",
+                  "scope": 2145,
+                  "src": "116:7:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -131,10 +131,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5277,
+                    "id": 2142,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "116:7:15",
+                    "src": "116:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -145,159 +145,176 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "115:9:15"
+              "src": "115:9:7"
             },
-            "scope": 5281,
-            "src": "63:62:15",
+            "scope": 2146,
+            "src": "63:62:7",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 5282,
-        "src": "28:100:15"
+        "scope": 2147,
+        "src": "28:100:7"
       }
     ],
-    "src": "0:130:15"
+    "src": "0:130:7"
   },
   "legacyAST": {
-    "absolutePath": "/C/Users/Lenovo/Desktop/UniswapFork/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
-    "exportedSymbols": {
-      "IUniswapV1Factory": [
-        5281
-      ]
+    "attributes": {
+      "absolutePath": "/C/Users/Lenovo/Desktop/My Repos/DigiSwap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
+      "exportedSymbols": {
+        "IUniswapV1Factory": [
+          2146
+        ]
+      }
     },
-    "id": 5282,
-    "nodeType": "SourceUnit",
-    "nodes": [
+    "children": [
       {
-        "id": 5273,
-        "literals": [
-          "solidity",
-          ">=",
-          "0.5",
-          ".0"
-        ],
-        "nodeType": "PragmaDirective",
-        "src": "0:24:15"
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 2138,
+        "name": "PragmaDirective",
+        "src": "0:24:7"
       },
       {
-        "abstract": false,
-        "baseContracts": [],
-        "contractDependencies": [],
-        "contractKind": "interface",
-        "documentation": null,
-        "fullyImplemented": false,
-        "id": 5281,
-        "linearizedBaseContracts": [
-          5281
-        ],
-        "name": "IUniswapV1Factory",
-        "nodeType": "ContractDefinition",
-        "nodes": [
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            2146
+          ],
+          "name": "IUniswapV1Factory",
+          "scope": 2147
+        },
+        "children": [
           {
-            "body": null,
-            "documentation": null,
-            "functionSelector": "06f2bf62",
-            "id": 5280,
-            "implemented": false,
-            "kind": "function",
-            "modifiers": [],
-            "name": "getExchange",
-            "nodeType": "FunctionDefinition",
-            "overrides": null,
-            "parameters": {
-              "id": 5276,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 5275,
-                  "mutability": "mutable",
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 5280,
-                  "src": "84:7:15",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 5274,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "84:7:15",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
+            "attributes": {
+              "body": null,
+              "documentation": null,
+              "functionSelector": "06f2bf62",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
               ],
-              "src": "83:9:15"
+              "name": "getExchange",
+              "overrides": null,
+              "scope": 2146,
+              "stateMutability": "view",
+              "virtual": false,
+              "visibility": "external"
             },
-            "returnParameters": {
-              "id": 5279,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 5278,
-                  "mutability": "mutable",
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 5280,
-                  "src": "116:7:15",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 5277,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "116:7:15",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
-              ],
-              "src": "115:9:15"
-            },
-            "scope": 5281,
-            "src": "63:62:15",
-            "stateMutability": "view",
-            "virtual": false,
-            "visibility": "external"
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "",
+                      "overrides": null,
+                      "scope": 2145,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 2139,
+                        "name": "ElementaryTypeName",
+                        "src": "84:7:7"
+                      }
+                    ],
+                    "id": 2140,
+                    "name": "VariableDeclaration",
+                    "src": "84:7:7"
+                  }
+                ],
+                "id": 2141,
+                "name": "ParameterList",
+                "src": "83:9:7"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "",
+                      "overrides": null,
+                      "scope": 2145,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 2142,
+                        "name": "ElementaryTypeName",
+                        "src": "116:7:7"
+                      }
+                    ],
+                    "id": 2143,
+                    "name": "VariableDeclaration",
+                    "src": "116:7:7"
+                  }
+                ],
+                "id": 2144,
+                "name": "ParameterList",
+                "src": "115:9:7"
+              }
+            ],
+            "id": 2145,
+            "name": "FunctionDefinition",
+            "src": "63:62:7"
           }
         ],
-        "scope": 5282,
-        "src": "28:100:15"
+        "id": 2146,
+        "name": "ContractDefinition",
+        "src": "28:100:7"
       }
     ],
-    "src": "0:130:15"
+    "id": 2147,
+    "name": "SourceUnit",
+    "src": "0:130:7"
   },
   "compiler": {
     "name": "solc",
     "version": "0.6.6+commit.6c089d02.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.2.3",
-  "updatedAt": "2020-09-18T12:16:01.519Z",
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-06-29T05:58:21.350Z",
   "devdoc": {
     "methods": {}
   },
