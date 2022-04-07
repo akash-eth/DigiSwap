@@ -1,5 +1,5 @@
 ### DigiSwap ###
-#### An modified Uniswap fork using Ethereum ####
+#### An modified Uniswap fork ####
 
 #### Used: ####
 1. Uniswap Core
